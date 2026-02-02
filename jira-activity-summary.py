@@ -26,7 +26,6 @@ from datetime import datetime, timedelta
 import requests
 
 # Configure logging
-logging.basicConfig(level=logging.INFO, format="%(message)s")
 logger = logging.getLogger(__name__)
 
 
@@ -417,6 +416,7 @@ def main() -> None:
 
 
 if __name__ == "__main__":
+    logging.basicConfig(level=logging.INFO, format="%(message)s")
     try:
         main()
     except KeyboardInterrupt:
