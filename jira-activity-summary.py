@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 """
 Jira Activity Summary Script
-Fetches Jira statistics using the REST API directly (no MCP required)
+Fetches Jira statistics using the REST API directly
 
 Usage:
-    python jira-activity-summary.py [start-date] [end-date]
-    python jira-activity-summary.py 2025-02-28 2026-02-02
+    uv run jira-activity-summary.py [start-date] [end-date]
+    uv run jira-activity-summary.py 2025-02-28 2026-02-02
 
 Setup:
     1. Generate an API token: https://id.atlassian.com/manage-profile/security/api-tokens
